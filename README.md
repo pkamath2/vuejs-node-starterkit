@@ -21,4 +21,6 @@ npm run build
 ```
 npm run start:prod
 ```
+_____
 
+Client + Server project built based on ideas from https://dennisreimann.de/articles/vue-cli-serve-express.html 
