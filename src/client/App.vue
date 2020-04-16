@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/techladies-logo.png">
+    <img alt="Techladies logo" src="./assets/techladies-logo.png">
     <test-component msg="#bootcamp6"/>
     <test-component :msg="apiData"/>
   </div>

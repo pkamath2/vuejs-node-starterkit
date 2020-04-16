@@ -1,4 +1,4 @@
-# vuejs-node-starterkit
+# vuejs-node-starterkit for Techladies bootcamp #6
 
 ## Project setup
 ```
@@ -7,7 +7,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run start:dev
 ```
 
 ### Compiles and minifies for production
@@ -15,10 +15,7 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Runs production
 ```
-npm run lint
+npm run start:prod
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
