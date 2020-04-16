@@ -2,13 +2,27 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/techladies-logo.png">
     <test-component msg="#bootcamp6"/>
+    <test-component :msg="apiData"/>
   </div>
 </template>
 
 <script>
 
+const axios = require('axios');
+
 export default {
-  name: 'App'
+  data(){
+    return {
+      name: 'App',
+      apiData: ''
+    }
+  },
+
+  created(){
+    axios
+      .get('/test-api')
+      .then(res => (this.apiData = res.data))
+  }
 }
 </script> 
 
