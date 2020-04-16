@@ -1,6 +1,8 @@
 # vuejs-node-starterkit for Techladies bootcamp #6
 
-## Project setup
+Starter project for a Client + Server monolith.
+
+### Project setup
 ```
 npm install
 ```
@@ -10,7 +12,7 @@ npm install
 npm run start:dev
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies for production (Heroku deployment config in Procfile)
 ```
 npm run build
 ```
@@ -19,3 +21,4 @@ npm run build
 ```
 npm run start:prod
 ```
+

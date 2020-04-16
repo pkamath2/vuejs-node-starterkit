@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <img alt="Techladies logo" src="./assets/techladies-logo.png">
+    <br/><br/>
     <test-component msg="#bootcamp6"/>
     <test-component :msg="apiData"/>
+    <div class="mt-3">
+  </div>
   </div>
 </template>
 

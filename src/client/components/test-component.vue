@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ msg }}</h1>
+    <h1><b-badge>{{ msg }}</b-badge></h1>
   </div>
 </template>
 
